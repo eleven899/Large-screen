@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="30px" viewBox="0 0 200 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <defs>
+        <linearGradient x1="50%" y1="-14.3260035%" x2="50%" y2="114.580875%" id="linearGradient-1">
+            <stop stop-color="#0088CA" offset="0%"></stop>
+            <stop stop-color="#62D8FF" offset="19.2307692%"></stop>
+            <stop stop-color="#3E88E5" offset="79.0838068%"></stop>
+            <stop stop-color="#2882E2" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="200" height="30" rx="15"></rect>
+        <filter x="-1.2%" y="-8.3%" width="102.5%" height="116.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0196078431   0 0 0 0 0.062745098   0 0 0 0 0.368627451  0 0 0 0.376365822 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.704403">
+        <g id="民联新经济大屏2" transform="translate(-860.000000, -110.000000)">
+            <g id="形状结合" transform="translate(860.000000, 110.000000)">
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

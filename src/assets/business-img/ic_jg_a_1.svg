@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="662px" height="68px" viewBox="0 0 662 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <defs>
+        <radialGradient cx="50%" cy="51.4277002%" fx="50%" fy="51.4277002%" r="54.0156842%" gradientTransform="translate(0.500000,0.514277),scale(0.102719,1.000000),rotate(90.000000),scale(1.000000,11.134118),translate(-0.500000,-0.514277)" id="radialGradient-1">
+            <stop stop-color="#6FC0FF" offset="0%"></stop>
+            <stop stop-color="#2560B1" offset="52.8441605%"></stop>
+            <stop stop-color="#0A3E95" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <text id="text-2" font-family="PangMenZhengDao" font-size="24" font-weight="normal" line-spacing="20" letter-spacing="1.5" fill="#FFFFFF">
+            <tspan x="24" y="21">2022年7月数据汇总</tspan>
+        </text>
+        <filter x="-7.8%" y="-90.0%" width="115.7%" height="285.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.490196078   0 0 0 0 0.6163273   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M1.71063134,7.72781332 L4.29643543,10.3395898 C4.68503926,10.7320252 4.68187536,11.3651823 4.28940451,11.7537503 C4.28939256,11.7537621 4.28938061,11.7537739 4.28933317,11.7537499 L1.70352872,14.3135819 C1.31103827,14.7021301 0.677881357,14.6989343 0.289333173,14.3064438 C0.10397595,14.1192059 -1.07795751e-15,13.866383 0,13.6029151 L0,8.43137789 C5.9849844e-16,7.87909314 0.44771525,7.43137789 1,7.43137789 C1.26694849,7.43137789 1.52281584,7.53811136 1.71063134,7.72781332 Z" id="path-4"></path>
+        <filter x="-450.0%" y="-210.7%" width="991.7%" height="521.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.708333373   0 0 0 0 0.270833313  0 0 0 0.342029065 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M274.710631,7.72781332 L277.296435,10.3395898 C277.685039,10.7320252 277.681875,11.3651823 277.289405,11.7537503 C277.289393,11.7537621 277.289381,11.7537739 277.289333,11.7537499 L274.703529,14.3135819 C274.311038,14.7021301 273.677881,14.6989343 273.289333,14.3064438 C273.103976,14.1192059 273,13.866383 273,13.6029151 L273,8.43137789 C273,7.87909314 273.447715,7.43137789 274,7.43137789 C274.266948,7.43137789 274.522816,7.53811136 274.710631,7.72781332 Z" id="path-6"></path>
+        <filter x="-450.0%" y="-210.7%" width="991.7%" height="521.7%" filterUnits="objectBoundingBox" id="filter-7">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.708333373   0 0 0 0 0.270833313  0 0 0 0.342029065 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="民联新经济大屏" transform="translate(-629.000000, -204.000000)">
+            <g id="ic_jg_a_1" transform="translate(629.000000, 204.000000)">
+                <path d="M2.41605839,67.5 L659.583942,67.5 M2.41605839,63.5 L659.583942,63.5 M2.41605839,59.5 L659.583942,59.5 M2.41605839,55.5 L659.583942,55.5 M2.41605839,51.5 L659.583942,51.5 M2.41605839,47.5 L659.583942,47.5 M2.41605839,43.5 L659.583942,43.5 M2.41605839,39.5 L659.583942,39.5 M2.41605839,35.5 L659.583942,35.5 M2.41605839,32.5 L659.583942,32.5 M2.41605839,28.5 L659.583942,28.5 M2.41605839,24.5 L659.583942,24.5 M2.41605839,20.5 L659.583942,20.5 M2.41605839,16.5 L659.583942,16.5 M2.41605839,12.5 L659.583942,12.5 M2.41605839,8.5 L659.583942,8.5 M2.41605839,4.5 L659.583942,4.5 M2.41605839,0.5 L659.583942,0.5" id="形状结合" stroke="url(#radialGradient-1)" stroke-width="0.742857143" opacity="0.503557478" stroke-linecap="square"></path>
+                <g id="pic_cardname_2" transform="translate(192.000000, 24.000000)">
+                    <g id="人工智能指标数据" fill-rule="nonzero" fill="#FFFFFF" fill-opacity="1">
+                        <use filter="url(#filter-3)" xlink:href="#text-2"></use>
+                        <use xlink:href="#text-2"></use>
+                    </g>
+                    <g id="矩形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="#FEED9D" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    </g>
+                    <g id="矩形备份-2" transform="translate(275.500000, 11.000000) scale(-1, 1) translate(-275.500000, -11.000000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                        <use fill="#FEED9D" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <defs>
+        <filter x="-70.0%" y="-70.0%" width="240.0%" height="240.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="6.53333333" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="民联新经济大屏" transform="translate(-1565.000000, -532.000000)">
+            <g id="icon_top_3备份-11" transform="translate(1565.000000, 532.000000)">
+                <g id="编组-9">
+                    <circle id="椭圆形" stroke-opacity="0.572579764" stroke="#246CF9" stroke-width="1.30666667" cx="28" cy="28" r="27.3466667"></circle>
+                    <g id="编组-14" transform="translate(7.000000, 7.000000)">
+                        <path d="M26.7997599,41.2222222 C35.5769499,38.7033519 42,30.6108778 42,21.0170052 C42,9.40963374 32.5979797,0 21,0 C9.40202025,0 0,9.40963374 0,21.0170052 C0,30.5752247 6.37539962,38.643184 15.1024834,41.1939093" id="路径" stroke-opacity="0.913734703" stroke="#246CF9" stroke-width="2.61333333" stroke-linecap="round"></path>
+                        <circle id="椭圆形" fill="#FFB545" cx="21.1944444" cy="42.1944444" r="1.75"></circle>
+                        <circle id="椭圆形" fill="#1542A9" opacity="0.57124256" filter="url(#filter-1)" cx="21" cy="21" r="14"></circle>
+                    </g>
+                </g>
+                <g id="编组" transform="translate(18.000000, 17.000000)" fill="#39B2F5" fill-rule="nonzero">
+                    <path d="M3.8889069,6.51446667 L3.8889069,12.4855333 L16.1110931,12.4855333 L16.1110931,6.51446667 L20,6.51446667 L20,17.7333333 C20,18.432894 19.4196257,19 18.7036977,19 L1.29630229,19 C0.580374299,19 0,18.432894 0,17.7333333 L0,6.51446667 L3.8889069,6.51446667 Z M14.1666397,8.14276667 L14.1666397,10.3144667 L5.83336034,10.3144667 L5.83336034,8.14276667 L14.1666397,8.14276667 L14.1666397,8.14276667 Z M5.83336034,3.25723333 L9.86161972,0 L13.8905273,3.25723333 L11.8060732,3.25723333 L11.8060732,6.7203 L7.91716628,6.7203 L7.91716628,3.25723333 L5.83336034,3.25723333 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

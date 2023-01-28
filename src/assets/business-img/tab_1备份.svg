@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="55px" viewBox="0 0 89 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tab_1备份</title>
+    <defs>
+        <linearGradient x1="50%" y1="15.7578155%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.15" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-17.6%" y="-85.7%" width="135.3%" height="271.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="民联新经济大屏" transform="translate(-229.000000, 0.000000)">
+            <g id="tab_1备份" transform="translate(229.480472, -0.200704)">
+                <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="88" height="55"></rect>
+                <path d="M28.5195275,0.200704171 L62.5195275,0.200704171 C62.5195275,2.40984317 60.7286665,4.20070417 58.5195275,4.20070417 L32.5195275,4.20070417 C30.3103885,4.20070417 28.5195275,2.40984317 28.5195275,0.200704171 L28.5195275,0.200704171 L28.5195275,0.200704171 Z" id="矩形" fill="#11CABE"></path>
+                <path d="M28.5195275,0.200704171 L62.5195275,0.200704171 C62.5195275,4.06669742 59.3855208,7.20070417 55.5195275,7.20070417 L35.5195275,7.20070417 C31.6535343,7.20070417 28.5195275,4.06669742 28.5195275,0.200704171 L28.5195275,0.200704171 L28.5195275,0.200704171 Z" id="矩形备份-13" fill="#11CABE" opacity="0.564793" filter="url(#filter-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

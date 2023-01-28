@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <defs>
+        <path d="M0.481150837,3.68383002 L3.46857504,5.94690297 C3.68869047,6.11364771 3.73195596,6.42725985 3.56521122,6.64737528 C3.53659882,6.68514577 3.50276263,6.71865726 3.464718,6.74690413 L0.478836611,8.963822 C0.345808804,9.06259073 0.157900581,9.03481827 0.0591318484,8.90179046 C0.0207329157,8.85007242 1.1891081e-16,8.7873684 0,8.72295385 L0,3.92296257 C-2.02906125e-17,3.75727714 0.134314575,3.62296257 0.3,3.62296257 C0.365404193,3.62296257 0.429016599,3.64433661 0.481150837,3.68383002 Z" id="path-1"></path>
+        <filter x="-313.5%" y="-232.3%" width="746.6%" height="587.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.708333373   0 0 0 0 0.270833313  0 0 0 0.288843969 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="50%" x2="6.0368377e-13%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#FFF7CC" offset="0%"></stop>
+            <stop stop-color="#FEED9D" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="民联新经济大屏2" transform="translate(-1555.000000, -889.000000)">
+            <g id="ic_chart_arr_1" transform="translate(1555.000000, 889.000000)">
+                <g id="ic_p5备份-3" transform="translate(8.002162, 7.815861) rotate(-90.000000) translate(-8.002162, -7.815861) translate(3.818023, 1.494356)">
+                    <g id="矩形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FEED9D" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M1.3,0.180657701 C1.37268869,0.180657701 1.44290516,0.207048929 1.4975989,0.254926276 L8.06588232,6.00461551 C8.27366236,6.18650028 8.29465463,6.50238601 8.11276987,6.71016605 C8.09710266,6.72806383 8.08017826,6.7448208 8.0621256,6.76030929 L1.49534486,12.3943554 C1.369598,12.5022414 1.18020115,12.4877623 1.07231516,12.3620154 C1.02565243,12.3076275 1,12.2383326 1,12.1666706 L1,11.533 L6.5621256,6.76030929 C6.57115193,6.75256504 6.57989619,6.74450368 6.58834228,6.73614115 L6.61276987,6.71016605 C6.79465463,6.50238601 6.77366236,6.18650028 6.56588232,6.00461551 L6.56588232,6.00461551 L1,1.131 L1,0.480657701 C1,0.314972276 1.13431458,0.180657701 1.3,0.180657701 Z" id="形状结合" fill="url(#linearGradient-3)" opacity="0.765694754"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

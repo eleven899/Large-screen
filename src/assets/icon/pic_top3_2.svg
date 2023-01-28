@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="64px" viewBox="0 0 48 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <defs>
+        <path d="M26.0262161,40 C34.5500627,37.5558131 40.787719,29.7032776 40.787719,20.3938595 C40.787719,9.13064191 31.6570771,0 20.3938595,0 C9.13064191,0 0,9.13064191 0,20.3938595 C0,29.6686816 6.19138115,37.4974292 14.6665678,39.9725266" id="path-1"></path>
+        <filter x="-27.0%" y="-27.5%" width="153.9%" height="155.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.527315444   0 0 0 0 0.489565365   0 0 0 0 0.489565365  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="DINNextDevanagariStd-Heavy, DIN Next Devanagari Std" font-size="24" font-weight="800" fill="#CED7DF">
+            <tspan x="17" y="40">2</tspan>
+        </text>
+        <filter x="-75.0%" y="-29.2%" width="250.0%" height="158.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.527315444   0 0 0 0 0.489565365   0 0 0 0 0.489565365  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="民联新经济大屏" transform="translate(-1453.000000, -260.000000)">
+            <g id="pic_top3_12" transform="translate(1453.000000, 260.000000)">
+                <rect id="矩形" x="0" y="0" width="48" height="64"></rect>
+                <g id="编组-2" transform="translate(3.684912, 11.710310)">
+                    <g id="路径" stroke-linecap="round">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#CED7DF" stroke-width="1" xlink:href="#path-1"></use>
+                    </g>
+                    <circle id="椭圆形" fill="#C4D0DC" cx="20.3150876" cy="40.2896898" r="1.25"></circle>
+                </g>
+                <g id="2" fill-rule="nonzero" fill="#CED7DF" fill-opacity="1" stroke="#CED7DF" stroke-opacity="1">
+                    <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+                    <use xlink:href="#text-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

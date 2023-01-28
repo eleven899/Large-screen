@@ -1,0 +1,308 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+}
+.echart {
+  width: 100%;
+  box-sizing: border-box;
+  // border: 1px solid rgb(45, 206, 77);
+}
+
+.com-page {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.com-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  &-echart {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+.mt-24 {
+  margin-top: 24px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-28 {
+  margin-top: 28px;
+}
+.mt-49 {
+  margin-top: 49px;
+}
+/* 宽度 */
+.w-30 {
+  width: 30px;
+}
+.w-50 {
+  width: 50px;
+}
+.w-60 {
+  width: 60px;
+}
+.w-80 {
+  width: 80px;
+}
+.w-100 {
+  width: 100px;
+}
+.w-120 {
+  width: 120px;
+}
+.w-130 {
+  width: 130px;
+}
+.w-140 {
+  width: 140px;
+}
+.w-150 {
+  width: 150px;
+}
+.w-180 {
+  width: 180px;
+}
+.w-200 {
+  width: 200px;
+}
+.w-220 {
+  width: 220px;
+}
+.w-230 {
+  width: 230px;
+}
+.w-250 {
+  width: 250px;
+}
+.w-300 {
+  width: 300px;
+}
+.w-320 {
+  width: 320px;
+}
+.w-350 {
+  width: 350px;
+}
+.w-360 {
+  width: 360px;
+}
+.w-400 {
+  width: 400px;
+}
+.w-500 {
+  width: 500px;
+}
+.w-600 {
+  width: 600px;
+}
+.w-650 {
+  width: 650px;
+}
+.w-700 {
+  width: 700px;
+}
+.w-750 {
+  width: 750px;
+}
+.w-894{
+  width: 894px;
+}
+/* 高度 */
+.h-1 {
+  height: 1px;
+}
+.h-6 {
+  height: 6px;
+}
+.h-30 {
+  height: 30px;
+}
+.h-48 {
+  height: 48px;
+}
+.h-50 {
+  height: 50px;
+}
+.h-60 {
+  height: 60px;
+}
+.h-80 {
+  height: 80px;
+}
+.h-100 {
+  height: 100px;
+}
+.h-120 {
+  height: 120px;
+}
+.h-130 {
+  height: 130px;
+}
+.h-150 {
+  height: 150px;
+}
+.h-152 {
+  height: 152px;
+}
+.h-180 {
+  height: 180px;
+}
+.h-200 {
+  height: 200px;
+}
+.h-205 {
+  height: 205px;
+}
+.h-230 {
+  height: 230px;
+}
+.h-250 {
+  height: 250px;
+}
+.h-251 {
+  height: 251px;
+}
+.h-256 {
+  height: 256px;
+}
+.h-300 {
+  height: 300px;
+}
+.h-320 {
+  height: 320px;
+}
+.h-350 {
+  height: 350px;
+}
+.h-375 {
+  height: 375px;
+}
+.h-400 {
+  height: 400px;
+}
+.h-500 {
+  height: 500px;
+}
+.h-531 {
+  height: 531px;
+}
+.h-535 {
+  height: 535px;
+}
+.h-650 {
+  height: 650px;
+}
+.fly_border {
+    position: relative;
+    overflow: hidden;
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+    }
+    i {
+      position: absolute;
+      display: inline-block;
+      height: 100%;
+      width: 2px;
+    }
+    &::before {
+      top: 0;
+      left: -100%;
+      background-image: linear-gradient(
+        90deg,
+        transparent,
+        #03e9f4,
+        transparent
+      );
+ 
+      animation: one 10s linear infinite;
+    }
+    i:nth-child(1) {
+      top: -100%;
+      right: 0;
+      background-image: linear-gradient(
+        180deg,
+        transparent,
+        #03e9f4,
+        transparent
+      );
+      /* 动画名称  动画持续时间  动画渲染函数 动画延迟时间 动画执行次数 */
+      animation: two 10s linear 1s infinite;
+    }
+    &::after {
+      bottom: 0;
+      right: -100%;
+      background-image: linear-gradient(
+        -90deg,
+        transparent,
+        #03e9f4,
+        transparent
+      );
+      animation: three 10s linear 2s infinite;
+    }
+    i:nth-child(2) {
+      bottom: -100%;
+      left: 0;
+      background-image: linear-gradient(
+        360deg,
+        transparent,
+        #03e9f4,
+        transparent
+      );
+      animation: four 10s linear 3s infinite;
+    }
+  }
+
+@keyframes one {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+ 
+@keyframes two {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+ 
+@keyframes three {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+ 
+@keyframes four {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}

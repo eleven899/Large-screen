@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="581px" height="323px" viewBox="0 0 581 323" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <defs>
+        <linearGradient x1="1.71780992e-13%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.049222" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="79.6076315%" y1="50%" x2="7.22295487e-14%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#4AA5FD" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#246CF9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="92.6631396%" y1="9.35986117%" x2="10.9461911%" y2="9.35986117%" id="linearGradient-3">
+            <stop stop-color="#246DF9" offset="0%"></stop>
+            <stop stop-color="#4979D1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M34.9705627,4 C31.9058389,4 28.9619891,5.17236583 26.7385954,7.2687425 L26.4852814,7.51471863 L5.51471863,28.4852814 C3.34763159,30.6523684 2.09500327,33.5629724 2.00518868,36.6175113 L2,36.9705627 L2,52.5147186 C2,53.0202602 2.06380051,53.5192237 2.18694261,54.0008445 L2,54 C0.8954305,54 1.3527075e-16,53.1045695 0,52 L0,20.9705627 C4.93931469e-15,17.7879649 1.26428208,14.7357179 3.51471863,12.4852814 L12.4852814,3.51471863 C14.7357179,1.26428208 17.7879649,1.6576725e-13 20.9705627,1.59853546e-13 L188,1.59853546e-13 C189.480369,1.59581607e-13 190.77291,0.8041845 191.464597,1.99952564 L246.823744,2 C247.878106,2 248.741909,2.81587779 248.818258,3.85073766 L248.823744,4 L34.9705627,4 Z" id="path-4"></path>
+        <filter x="-62.5%" y="-62.5%" width="225.0%" height="225.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="20" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="1.34943182%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#013495" offset="0%"></stop>
+            <stop stop-color="#05337B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="民联新经济大屏" transform="translate(-1319.000000, -697.000000)">
+            <g id="pic_frame_1备份-3" transform="translate(1609.499789, 858.500000) scale(-1, 1) translate(-1609.499789, -858.500000) translate(1318.999578, 697.000000)">
+                <path d="M580.500422,1.49957777 L580.500422,322.499578 L3.50042223,322.499578 L3.50042223,24.9184842 L24.0076335,1.49957777 L580.500422,1.49957777 Z" id="矩形" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)"></path>
+                <g id="编组-20" transform="translate(27.000422, 124.411872) scale(-1, 1) rotate(-270.000000) translate(-27.000422, -124.411872) translate(-97.411450, 97.411450)">
+                    <g id="椭圆形" transform="translate(0.000000, 0.000000)">
+                        <mask id="mask-5" fill="white">
+                            <use xlink:href="#path-4"></use>
+                        </mask>
+                        <use id="蒙版" fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                        <circle fill="#82C2FA" filter="url(#filter-6)" mask="url(#mask-5)" cx="14" cy="-4.97087568" r="48"></circle>
+                    </g>
+                    <path d="M7.12132034,14.8786797 L14.8786797,7.12132034 C16.2369383,5.76306174 18.0791323,5 20,5 C20.6862915,5 21.2426407,5.55634919 21.2426407,6.24264069 C21.2426407,6.57220949 21.11172,6.88828001 20.8786797,7.12132034 L7.12132034,20.8786797 C6.63603897,21.363961 5.8492424,21.363961 5.36396103,20.8786797 C5.1309207,20.6456393 5,20.3295688 5,20 C5,18.0791323 5.76306174,16.2369383 7.12132034,14.8786797 Z" id="矩形" fill="url(#linearGradient-7)" opacity="0.347260975"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

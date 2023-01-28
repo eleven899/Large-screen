@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="64px" viewBox="0 0 48 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <defs>
+        <path d="M29.7111285,51.7103102 C38.2349751,49.2661234 44.4726314,41.4135879 44.4726314,32.1041697 C44.4726314,20.8409521 35.3419895,11.7103102 24.0787719,11.7103102 C12.8155543,11.7103102 3.6849124,20.8409521 3.6849124,32.1041697 C3.6849124,41.3789918 9.87629356,49.2077394 18.3514802,51.6828368" id="path-1"></path>
+        <filter x="-23.3%" y="-23.8%" width="146.6%" height="147.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.641125917   0 0 0 0 0.40898329   0 0 0 0 0.342518449  0 0 0 0.730687281 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="DINNextDevanagariStd-Heavy, DIN Next Devanagari Std" font-size="24" font-weight="800" fill="#A36859">
+            <tspan x="17" y="40">3</tspan>
+        </text>
+        <filter x="-64.3%" y="-25.0%" width="228.6%" height="150.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.641125917   0 0 0 0 0.40898329   0 0 0 0 0.342518449  0 0 0 0.730687281 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="民联新经济大屏" transform="translate(-1453.000000, -327.000000)">
+            <g id="pic_top3_3" transform="translate(1453.000000, 327.000000)">
+                <rect id="矩形" x="0" y="0" width="48" height="64"></rect>
+                <g id="路径" stroke-linecap="round">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#A36859" stroke-width="1" xlink:href="#path-1"></use>
+                </g>
+                <circle id="椭圆形" fill="#9C675E" cx="24" cy="52" r="1.25"></circle>
+                <g id="3" fill-rule="nonzero" fill="#A36859" fill-opacity="1" stroke="#A36859" stroke-opacity="1">
+                    <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+                    <use xlink:href="#text-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

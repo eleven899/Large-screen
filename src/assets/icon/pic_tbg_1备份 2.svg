@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="460px" height="55px" viewBox="0 0 460 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <defs>
+        <linearGradient x1="-3.19287861%" y1="48.8866514%" x2="96.0225945%" y2="49.2852079%" id="linearGradient-1">
+            <stop stop-color="#0012CF" stop-opacity="0.13404174" offset="0%"></stop>
+            <stop stop-color="#246CF9" stop-opacity="0.203671329" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.613304501">
+        <g id="民联新经济大屏2" transform="translate(-1432.000000, -331.000000)" fill="url(#linearGradient-1)">
+            <g id="编组-5备份" transform="translate(1432.000000, 102.000000)">
+                <g id="pic_tbg_1备份-2" transform="translate(0.000000, 229.000000)">
+                    <rect id="矩形" x="0" y="0" width="460" height="55"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

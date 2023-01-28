@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="64px" viewBox="0 0 48 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <defs>
+        <filter x="-62.5%" y="-62.5%" width="225.0%" height="225.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="5.83333333" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="民联新经济大屏2" transform="translate(-1453.000000, -192.000000)">
+            <g id="编组-5备份" transform="translate(1432.000000, 102.000000)">
+                <g id="pic_top3_1logo_bg" transform="translate(21.000000, 90.000000)">
+                    <rect id="矩形" x="0" y="0" width="48" height="64"></rect>
+                    <g id="编组-2" transform="translate(0.000000, 8.000000)">
+                        <circle id="椭圆形" stroke-opacity="0.572579764" stroke="#246CF9" stroke-width="0.5" cx="24" cy="24" r="23.75"></circle>
+                        <circle id="椭圆形" fill="#1542A9" opacity="0.57124256" filter="url(#filter-1)" cx="24" cy="24" r="14"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

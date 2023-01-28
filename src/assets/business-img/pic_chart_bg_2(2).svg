@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="305px" height="88px" viewBox="0 0 305 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="民联新经济大屏" transform="translate(-807.000000, -341.000000)">
+            <g id="编组-5备份-2" transform="translate(788.000000, 277.000000)">
+                <g id="pic_chart_bg_2" transform="translate(19.000000, 64.000000)">
+                    <rect id="矩形" fill-opacity="0.0521743881" fill="#7DC1F5" x="0" y="0" width="305" height="88"></rect>
+                    <path d="M304,83 L305,82 L305,88 L299,88 L300,87 L304,87 L304,83 Z M0,82 L1,83 L1,87 L5,87 L6,88 L0,88 L0,82 Z M6,0 L5,1 L1,1 L1,5 L0,6 L0,0 L6,0 Z M305,0 L305,6 L304,5 L304,1 L300,1 L299,0 L305,0 Z" id="形状" fill="#246CF9" fill-rule="nonzero" opacity="0.5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

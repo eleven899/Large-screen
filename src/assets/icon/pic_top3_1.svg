@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="64px" viewBox="0 0 48 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <defs>
+        <path d="M26.0262161,48.5084747 C34.5500627,46.0642878 40.787719,38.2117523 40.787719,28.9023342 C40.787719,17.6391166 31.6570771,8.50847466 20.3938595,8.50847466 C9.13064191,8.50847466 0,17.6391166 0,28.9023342 C0,38.1771563 6.19138115,46.0059038 14.6665678,48.4810012" id="path-1"></path>
+        <filter x="-23.3%" y="-23.8%" width="146.6%" height="147.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.708333373   0 0 0 0 0.270833313  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="DINNextDevanagariStd-Heavy, DIN Next Devanagari Std" font-size="24" font-weight="800" fill="#FFB545">
+            <tspan x="17" y="40">1</tspan>
+        </text>
+        <filter x="-64.3%" y="-25.0%" width="228.6%" height="150.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.708333373   0 0 0 0 0.270833313  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="民联新经济大屏" transform="translate(-1453.000000, -192.000000)">
+            <g id="编组-5备份" transform="translate(1432.000000, 102.000000)">
+                <g id="pic_top3_1" transform="translate(21.000000, 90.000000)">
+                    <rect id="矩形" x="0" y="0" width="48" height="64"></rect>
+                    <g id="编组-14" transform="translate(3.684912, 3.201836)">
+                        <g id="路径" stroke-linecap="round">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use stroke="#FFB545" stroke-width="1" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="编组" transform="translate(13.559147, 0.000000)" fill="#FFB545" fill-rule="nonzero">
+                            <path d="M12.6483285,4.87856248 C13.1597204,4.877045 13.5679235,4.44759719 13.5665048,3.9362053 C13.563371,3.42481339 13.1779302,3.06668731 12.6665383,3.06820479 C12.1551464,3.07123975 11.7469434,3.49917008 11.7499784,4.01056198 C11.6999014,4.05305152 11.7423909,4.10312847 11.7757756,4.24577191 L9.96238292,5.3429124 C9.71958558,5.46127611 9.49348054,5.39602432 9.41760639,5.20330393 L7.30830446,1.67819 C7.60117876,1.51733676 7.76658444,1.20777014 7.74837465,0.879993729 C7.65429068,0.361014407 7.22484288,-0.0471886271 6.7559405,0.00440580346 C6.24454859,0.0074407674 5.88642251,0.392881554 5.84696794,0.854196509 C5.86517774,1.18045544 6.02603098,1.47332974 6.24454859,1.63114801 L4.12917674,5.11832486 C4.02143541,5.29435293 3.73614854,5.36263968 3.56012047,5.25489837 L1.7467278,4.21542224 L1.77100754,3.93924026 C1.76949006,3.42784836 1.34004225,3.01964532 0.871139876,3.07275724 C0.359747972,3.07427472 -0.0484550617,3.50372252 0.00465685957,3.9726249 C0.00617434154,4.4840168 0.435622149,4.89221984 0.904524514,4.8406254 L0.92579084,8.5979143 C0.99407759,8.8816837 1.26267215,8.99852991 1.5054695,8.88016621 C2.84388986,8.43857853 5.25818439,8.18971125 6.69979361,8.17453643 C8.13988535,8.15936159 10.5572148,8.42188622 11.9077751,8.91051587 C12.2249291,8.98183759 12.5178034,8.82098435 12.5845727,8.59487932 L12.6483285,4.87856248 Z" id="路径"></path>
+                        </g>
+                        <circle id="椭圆形" fill="#FFB545" cx="20.3150876" cy="48.7981644" r="1.25"></circle>
+                    </g>
+                    <g id="1" fill-rule="nonzero" fill="#FFB545" fill-opacity="1">
+                        <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+                        <use xlink:href="#text-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
